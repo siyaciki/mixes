@@ -5,7 +5,7 @@ include ("./dao/db.class.php");
 //$s=$_POST['number'];
 //造一个对象
 $db = new db();
-$sql = "select * from GroundNotice LIMIT 0,6";
+$sql = "select * from ground_notice";
 $result = $db->query($sql);
 
 

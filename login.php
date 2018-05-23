@@ -15,7 +15,7 @@ if (!$conn) {
 }
 
 //mysqli_set_charset($conn2,"utf8");
-$sql = "SELECT id,name,password FROM UserInfo";
+$sql = "SELECT id,name,password FROM user_info";
 //$sql = "SELECT * FROM login_test";
 $result = $conn->query($sql);
 $rows=array();
