@@ -5,13 +5,20 @@
 //$s=$_POST['number'];
 //造一个对象
 $db = new db();
-$sql = "select * from login_test";
+$sql = "select * from guest_request where status=0";
 $result=$db->Query($sql);
 //print_r($result);
 $nums=$result->num_rows;
-$number=array(array('username'=>"tom","password"=>"123456","age"=>$nums),array('username'=>"cat","password"=>"123456","age"=>$nums),array('username'=>"sad","password"=>"123456","age"=>$nums));
-$number2=array('username'=>"tom","password"=>"123456","age"=>$nums);
-echo(json_encode($number2));
+$db->close();
+
+$db2 = new db();
+$sql2 = "select * from msg";
+$result2=$db2->Query($sql2);
+//print_r($result);
+$nums2=$result2->num_rows;
+
+$corns_marks=array('ask_marks' =>$nums, 'msg_marks' =>$nums2);
+echo(json_encode($corns_marks));
 
 ?>
 
