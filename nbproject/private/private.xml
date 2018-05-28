@@ -5,7 +5,11 @@
         <group>
             <file>file:/E:/data/htdocs/mixes/mixes/login.php</file>
             <file>file:/E:/data/htdocs/mixes/mixes/index.php</file>
+            <file>file:/E:/data/htdocs/mixes/mixes/msg_class.php</file>
+            <file>file:/E:/data/htdocs/mixes/mixes/insertMsg.php</file>
             <file>file:/E:/data/htdocs/mixes/mixes/a.php</file>
+            <file>file:/E:/data/htdocs/mixes/mixes/.gitignore</file>
+            <file>file:/E:/data/htdocs/mixes/mixes/dao/db.class.php</file>
             <file>file:/E:/data/htdocs/mixes/mixes/register.php</file>
             <file>file:/E:/data/htdocs/mixes/mixes/sqlOutput.php</file>
             <file>file:/E:/data/htdocs/mixes/mixes/getMsg.php</file>

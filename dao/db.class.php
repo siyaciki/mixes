@@ -42,7 +42,7 @@ class db {
     }
     public function queryAdd($sql)
     {
-        
+        $r=$this->conn->query($sql);
     }
     public function close(){
         $this->conn->close();
