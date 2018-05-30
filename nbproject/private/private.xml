@@ -3,18 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/data/htdocs/mixes/mixes/login.php</file>
-            <file>file:/E:/data/htdocs/mixes/mixes/index.php</file>
-            <file>file:/E:/data/htdocs/mixes/mixes/msg_class.php</file>
-            <file>file:/E:/data/htdocs/mixes/mixes/insertMsg.php</file>
-            <file>file:/E:/data/htdocs/mixes/mixes/jplayer.php</file>
-            <file>file:/E:/data/htdocs/mixes/mixes/a.php</file>
-            <file>file:/E:/data/htdocs/mixes/mixes/.gitignore</file>
-            <file>file:/E:/data/htdocs/mixes/mixes/dao/db.class.php</file>
-            <file>file:/E:/data/htdocs/mixes/mixes/register.php</file>
-            <file>file:/E:/data/htdocs/mixes/mixes/sqlOutput.php</file>
-            <file>file:/E:/data/htdocs/mixes/mixes/getMsg.php</file>
-            <file>file:/E:/data/htdocs/mixes/mixes/groundNotice.php</file>
+            <file>file:/E:/data/htdocs/mixes/mixes/websocket/jPlayer/jplayer.blue.monday.min.css</file>
         </group>
     </open-files>
 </project-private>
