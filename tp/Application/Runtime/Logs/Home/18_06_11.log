@@ -1,0 +1,62 @@
+[ 2018-06-11T09:01:15+08:00 ] 192.168.1.35 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2018-06-11T09:02:02+08:00 ] 192.168.1.30 /index.php?m=Home&c=Auth&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `crew_info` [ RunTime:0.0108s ]
+SQL: SELECT `id` FROM `crew_info` WHERE `name` = 'asdd' AND `password` = 'a94a309ec9574da1370d0561fad41b2b' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/Application/Home/Common/function.php 第 15 行.
+
+[ 2018-06-11T09:10:33+08:00 ] 192.168.1.35 /index.php?m=Home&c=Auth&a=login&username=admin&password=123456&mac=123123123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `crew_info` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `crew_info` WHERE `name` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/Application/Home/Common/function.php 第 15 行.
+
+[ 2018-06-11T09:10:53+08:00 ] 192.168.1.35 /index.php?m=Home&c=Auth&a=login&username=admin&password=123456&mac=123123123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `crew_info` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `crew_info` WHERE `name` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/Application/Home/Common/function.php 第 15 行.
+
+[ 2018-06-11T09:11:44+08:00 ] 192.168.1.30 /index.php?m=Home&c=Auth&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/Application/Home/Common/function.php 第 15 行.
+
+[ 2018-06-11T09:11:48+08:00 ] 192.168.1.30 /index.php?m=Home&c=Auth&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/Application/Home/Common/function.php 第 15 行.
+

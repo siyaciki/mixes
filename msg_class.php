@@ -8,7 +8,7 @@ class msg_class
     //查看推送消息
     public function get_msg(){
 
-    $sql="select * from msg";
+    $sql="select * from ".$msg;
     $result = $db->query($sql);
 
     $rows = array();

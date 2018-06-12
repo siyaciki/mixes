@@ -5,7 +5,8 @@
     //$s=$_POST['number'];
     //造一个对象
     $db = new db();
-    $sql="select * from msg";
+    $sql="select * from ".$msg;
+    
     $result = $db->query($sql);
 
     $rows = array();

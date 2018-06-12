@@ -2,7 +2,7 @@
 
 include ("./dao/db.class.php");
 $db = new db();
-$sql = "select * from guest_request";
+$sql = "select * from ".$passenger_request;
 $result = $db ->query($sql);
 
 $rows = array();

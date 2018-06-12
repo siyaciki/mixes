@@ -5,7 +5,6 @@ include ("./dao/db.class.php");
 //$s=$_POST['number'];
 //造一个对象
 $db = new db();
-$sql = "select * from login_test";
 
  //数据库中有哪些表
 $result = $db->query('SHOW TABLES');//执行查询语句
@@ -36,9 +35,9 @@ fwrite($myfile, $txt);
 
  //将每个表的表结构导出到文件
  foreach($tables as $val){
-     //print_r($val);
+     print_r($val);
      //获取表名
-    $str=$val['Tables_in_iWO_test'];
+    $str=$val['Tables_in_iwo_test'];
   $sql = "show create table ".$str;
   $res = $db->query($sql);
   //获取查询结果的数字下标数组
@@ -64,7 +63,7 @@ fwrite($myfile, $txt);
  //---------------------------将每个表的数据导出到文件---------------------------------
  foreach($tables as $val){
      //获取表名
-     $str=$val['Tables_in_iWO_test'];
+     $str=$val['Tables_in_iwo_test'];
      $sql = "select * from ".$str;
      $res = $db->query($sql);
      //查询结果条数

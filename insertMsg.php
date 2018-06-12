@@ -8,7 +8,7 @@
     $name=$_POST['name'];
     //造一个对象
     $db = new db();
-    $sql="INSERT INTO msg (title,CONTENT,TIME,NAME) VALUES('$title','$content','$time','$name')";
+    $sql="INSERT INTO ".$msg."(title,CONTENT,TIME,NAME) VALUES('$title','$content','$time','$name')";
     $result = $db->query($sql);
     $result_json=json_encode($result);
     echo($result_json);
