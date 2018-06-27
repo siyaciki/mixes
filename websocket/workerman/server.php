@@ -11,7 +11,7 @@ $to_uid = "";
 $push_api_url = "http://192.168.1.30:2121/";
 $post_data = array(
    "type" => "publish",
-   "content" => "woshi",
+   "content" => $content,
    "to" => $to_uid, 
 );
 $ch = curl_init ();

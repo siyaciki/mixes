@@ -1,5 +1,5 @@
 <?php
-
+    include ("./dao/asd.php");
     include ("./dao/db.class.php");
     //也可以写成include("./db.class.php")/include("../db.class.php")
     //$s=$_POST['number'];
@@ -8,12 +8,9 @@
     $sql="select * from ".$msg;
     
     $result = $db->query($sql);
+    
+    $asdw=new asd();
+    $qwe=$asdw->asdq();
 
-    $rows = array();
-    while ($row = $result->fetch_assoc()) {
-        array_push($rows, $row);
-    }
-    $json_rows = json_encode($rows, JSON_UNESCAPED_UNICODE);
-    echo $json_rows;
 ?>
 
